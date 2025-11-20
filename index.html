@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Voice Agents that answer calls 24/7, book appointments, and convert inquiries into revenue. Never miss a customer again.">
+    <title>AI Voice Agents | Turn Every Call Into A Sale</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <span class="logo-text">VoiceAI</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#solutions" class="nav-link">Industries</a></li>
+                    <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#demo" class="nav-link">Book Demo</a></li>
+                </ul>
+                <button class="nav-cta" onclick="document.getElementById('demo').scrollIntoView({behavior: 'smooth'})">Book Demo</button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-headline">Turn Every Call Into A Sale With AI Voice Agents</h1>
+                <p class="hero-subheadline">Never miss a customer again. Our AI voice agents answer calls 24/7, book appointments, and convert inquiries into revenue—automatically.</p>
+                <div class="hero-ctas">
+                    <a href="#demo" class="btn btn-primary">Book Your Free Demo</a>
+                    <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
+                </div>
+                <div class="trust-bar">
+                    <div class="trust-item">
+                        <span class="trust-icon">✓</span>
+                        <span>Trusted by 100+ businesses</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-icon">✓</span>
+                        <span>24/7 Availability</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-icon">✓</span>
+                        <span>Increase Sales by 40%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sales Impact Section -->
+    <section id="sales-impact" class="sales-impact">
+        <div class="container">
+            <h2 class="section-headline">Stop Losing Sales to Missed Calls</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="67">0</div>
+                    <div class="stat-label">% of customers hang up if calls aren't answered immediately</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="40">0</div>
+                    <div class="stat-label">% average sales increase after implementing AI voice agents</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="500">$0</div>
+                    <div class="stat-label">- $2,000 in monthly revenue recovered per missed call prevented</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">availability means capturing after-hours leads</div>
+                </div>
+            </div>
+            <div class="value-proposition">
+                <p>Every missed call is a lost sale. Our AI voice agents ensure you never miss another customer—capturing leads, booking appointments, and answering questions even when you're busy or closed.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industry Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <h2 class="section-headline">Tailored Solutions For Your Industry</h2>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">🏥</div>
+                    <h3>Healthcare Practices</h3>
+                    <ul class="solution-features">
+                        <li>Schedule patient appointments instantly</li>
+                        <li>Handle insurance questions 24/7</li>
+                        <li>Reduce no-shows with automated reminders</li>
+                        <li>Free up front desk staff for in-person patients</li>
+                    </ul>
+                    <div class="solution-roi">ROI: "Clinics report 30% more bookings"</div>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">🏠</div>
+                    <h3>Real Estate Agencies</h3>
+                    <ul class="solution-features">
+                        <li>Qualify leads while you're showing properties</li>
+                        <li>Book property viewings automatically</li>
+                        <li>Answer common buyer/renter questions</li>
+                        <li>Capture after-hours inquiries</li>
+                    </ul>
+                    <div class="solution-roi">ROI: "Never miss a hot lead again"</div>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">💇</div>
+                    <h3>Salons & Med Spas</h3>
+                    <ul class="solution-features">
+                        <li>Book appointments, reschedules, and cancellations</li>
+                        <li>Handle service inquiries and pricing</li>
+                        <li>Send appointment reminders</li>
+                        <li>Upsell services during booking</li>
+                    </ul>
+                    <div class="solution-roi">ROI: "Fill 95% of appointment slots"</div>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">🍽️</div>
+                    <h3>Restaurants & Home Services</h3>
+                    <ul class="solution-features">
+                        <li>Take reservations and orders 24/7</li>
+                        <li>Answer menu/service questions</li>
+                        <li>Handle high call volumes during peak hours</li>
+                        <li>Reduce wait times and customer frustration</li>
+                    </ul>
+                    <div class="solution-roi">ROI: "Serve more customers without more staff"</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-headline">How It Works</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Book a 30-Minute Demo</h3>
+                    <p>Show us your business needs</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>We Build Your Custom Agent</h3>
+                    <p>Trained on your services, pricing, and schedule (2-3 days)</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Start Converting Calls to Sales</h3>
+                    <p>Go live and watch your revenue grow</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-headline">Features That Drive Sales</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">📅</div>
+                    <h3>Smart Appointment Booking</h3>
+                    <p>Integrated with your calendar</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Lead Qualification</h3>
+                    <p>Captures customer info and intent</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💬</div>
+                    <h3>FAQ Handling</h3>
+                    <p>Answers common questions instantly</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Multi-language Support</h3>
+                    <p>Serve diverse customer bases</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔗</div>
+                    <h3>CRM Integration</h3>
+                    <p>Syncs with your existing tools</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📊</div>
+                    <h3>Real-time Analytics</h3>
+                    <p>Track calls, bookings, and conversions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-headline">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">Since implementing the AI voice agent, we've seen a 45% increase in appointment bookings. It's like having a receptionist who never sleeps!</p>
+                    <div class="testimonial-author">
+                        <strong>Dr. Sarah Chen</strong>
+                        <span>Wellness Med Spa</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">We were losing 20-30 calls per week after hours. Now we capture every single lead. Game changer for our real estate business.</p>
+                    <div class="testimonial-author">
+                        <strong>Marcus Rodriguez</strong>
+                        <span>Rodriguez Realty Group</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">Our salon went from 60% booked to 92% booked within a month. The AI handles everything seamlessly.</p>
+                    <div class="testimonial-author">
+                        <strong>Jessica Lee</strong>
+                        <span>Luxe Beauty Salon</span>
+                    </div>
+                </div>
+            </div>
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-value" data-target="500">0</div>
+                    <div class="stat-text">+ Appointments Booked Daily</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" data-target="98">0</div>
+                    <div class="stat-text">% Customer Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" data-target="40">0</div>
+                    <div class="stat-text">% Average Revenue Increase</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROI Calculator Section -->
+    <section id="roi-calculator" class="roi-calculator">
+        <div class="container">
+            <h2 class="section-headline">Calculate Your Lost Revenue</h2>
+            <div class="calculator-container">
+                <div class="calculator-inputs">
+                    <div class="input-group">
+                        <label for="missed-calls">How many calls do you miss per week?</label>
+                        <input type="range" id="missed-calls" min="0" max="100" value="10" class="slider">
+                        <div class="slider-value"><span id="missed-calls-value">10</span> calls</div>
+                    </div>
+                    <div class="input-group">
+                        <label for="customer-value">Average value per new customer?</label>
+                        <div class="dollar-input">
+                            <span>$</span>
+                            <input type="number" id="customer-value" min="0" value="100" step="10">
+                        </div>
+                    </div>
+                </div>
+                <div class="calculator-result">
+                    <div class="result-label">You're losing approximately</div>
+                    <div class="result-amount" id="result-amount">$4,000</div>
+                    <div class="result-label">per month in revenue</div>
+                    <a href="#demo" class="btn btn-primary">Let's Fix That - Book Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Booking Section -->
+    <section id="demo" class="demo-booking">
+        <div class="container">
+            <h2 class="section-headline">See Your Custom Voice Agent In Action</h2>
+            <p class="section-subheadline">Book a free 30-minute demo. We'll show you exactly how it works for YOUR business.</p>
+            <div class="demo-expectations">
+                <div class="expectation-item">
+                    <span class="check-icon">✓</span>
+                    <span>See a live demo customized for your industry</span>
+                </div>
+                <div class="expectation-item">
+                    <span class="check-icon">✓</span>
+                    <span>Learn how to integrate with your current systems</span>
+                </div>
+                <div class="expectation-item">
+                    <span class="check-icon">✓</span>
+                    <span>Get a custom pricing quote</span>
+                </div>
+                <div class="expectation-item">
+                    <span class="check-icon">✓</span>
+                    <span>Ask questions about your specific needs</span>
+                </div>
+            </div>
+            <div class="cal-embed">
+                <iframe src="https://cal.com/star-ai-fv1plw" width="100%" height="700" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-headline">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How long does implementation take?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most businesses are live within 3-5 days after the demo. We handle all the setup.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Will it sound robotic?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our AI uses natural, conversational voices that customers love. Most can't tell it's AI.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can it integrate with my calendar/booking system?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We integrate with Google Calendar, Calendly, Square, Mindbody, and 50+ other platforms.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What if the AI can't answer a question?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>It smoothly transfers to your team or takes a message with full context.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How much does it cost?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Pricing starts at $XXX/month. Most businesses see 5-10x ROI within the first month.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Is my customer data secure?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. We're SOC2 compliant with enterprise-grade encryption.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section id="final-cta" class="final-cta">
+        <div class="container">
+            <h2 class="cta-headline">Ready to Stop Losing Sales to Missed Calls?</h2>
+            <a href="#demo" class="btn btn-primary btn-large">Book Your Free Demo Now</a>
+            <p class="cta-subtext">No credit card required - 30-minute demo - See results in days</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">VoiceAI</h3>
+                    <p>Turn every call into a sale with AI voice agents.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#solutions">Industries</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#demo">Book Demo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:email@yourdomain.com">email@yourdomain.com</a></li>
+                        <li><a href="tel:+15551234567">(555) 123-4567</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn" class="social-icon">in</a>
+                        <a href="#" aria-label="Twitter" class="social-icon">t</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VoiceAI. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
