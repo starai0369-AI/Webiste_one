@@ -1,0 +1,14 @@
+# Images Folder
+
+This folder is for storing image assets for the website.
+
+## Recommended Images:
+
+- `hero-bg.jpg` - Optional hero section background image
+- `healthcare-icon.svg` - Healthcare industry icon
+- `realestate-icon.svg` - Real estate industry icon  
+- `salon-icon.svg` - Salon/Med Spa industry icon
+- `restaurant-icon.svg` - Restaurant/Home Services icon
+
+**Note**: Currently, the website uses emoji icons as placeholders. You can replace these with actual SVG icons or images by updating the HTML.
+
